@@ -1,0 +1,17 @@
+.sidebar {
+    flex: 2 1;
+    border-right: 2px solid grey;
+    height: 100vh;
+    .logo{
+        margin-left: 19%;
+    }
+    .sidebarbtn{
+        list-style: none;
+        line-height: 3;
+        button{
+            width: 100px;
+            height: 32px;
+            box-shadow: 3px 3px;
+        }
+    }
+}

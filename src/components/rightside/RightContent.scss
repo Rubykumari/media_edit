@@ -1,0 +1,76 @@
+.body {
+    flex: 10 1;
+
+    .bodyContent {
+        margin: 0 1rem;
+
+        .topContent {
+            display: flex;
+            align-items: center;
+            margin-top: 2rem;
+            justify-content: space-between;
+
+            .searchBar {
+                display: flex;
+                align-items: center;
+                border: 1px solid grey;
+                border-radius: 25px;
+                width: 90%;
+
+                input {
+                    border: none;
+                    width: 95%;
+                }
+
+                input:focus {
+                    outline: none;
+                }
+            }
+
+            .userIcon {
+                font-size: 40px;
+            }
+        }
+
+        .features {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 2rem;
+
+            .btn {
+                display: flex;
+                flex: 9 1;
+
+                button {
+                    display: flex;
+                    align-items: center;
+                    margin-right: 2%;
+                    cursor: pointer;
+
+                    .videoIcon {
+                        font-size: 2rem;
+                    }
+                }
+            }
+
+            p {
+                border-bottom: 1px solid black;
+            }
+        }
+        .recentVideo{
+            margin-top: 4rem;
+            .videos {
+                display: flex;
+                justify-content: space-between;
+                .video{
+                    width: 96%;
+                    border: 1px solid grey;
+                    border-radius: 10px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+}

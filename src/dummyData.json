@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "Video1",
+        "url": "assets/animal.mp4"
+    },
+    {
+        "id": 1,
+        "title": "Video2",
+        "url": "assets/doctor.mp4"
+    },
+    {
+        "id": 1,
+        "title": "Video3",
+        "url": "assets/city.mp4"
+    }
+]
